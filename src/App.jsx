@@ -13,7 +13,7 @@ function App() {
   const [gameState, setGameState] = useState('ongoing'); // won, lost
 
 
-  useEffect(() => window.addEventListener("load", playAudio()), []);
+  useEffect(() => window.addEventListener("click", playAudio()), []);
 
 
   useEffect(() => {

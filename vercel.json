@@ -1,0 +1,17 @@
+{
+    "public": true,
+    "routes": [
+        {
+            "src": "/backgroundMusic.mp3",
+            "dest": "/public/backgroundMusic.mp3"
+        },
+        {
+            "src": "/selectSound.mp3",
+            "dest": "/public/selectSound.mp3"
+        },
+        {
+            "src": "/cursor.png",
+            "dest": "/public/cursor.png"
+        }
+    ]
+}
