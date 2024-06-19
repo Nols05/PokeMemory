@@ -117,7 +117,7 @@ function App() {
   if (!isGameStarted) {
     return (
       <div className="main-screen">
-        <audio id="audio" src="../public/backgroundMusic.mp3" autoPlay loop></audio>
+        <audio id="audio" src="/backgroundMusic.mp3" autoPlay loop></audio>
 
         <div className="difficulty-selector">
           Choose difficulty
@@ -137,8 +137,8 @@ function App() {
 
   return (
     <div className="App">
-      <audio id="audio" src="../public/backgroundMusic.mp3" autoPlay loop></audio>
-      <audio id="selectSound" src="../public/selectSound.mp3" ></audio>
+      <audio id="audio" src="/backgroundMusic.mp3" autoPlay loop></audio>
+      <audio id="selectSound" src="/selectSound.mp3" ></audio>
 
       <img width="50px" height="50px" src="https://i.pinimg.com/originals/32/eb/23/32eb230b326ee3c76e64f619a06f6ebb.png"></img>
       <h1>PokeMemory by Nols</h1>
