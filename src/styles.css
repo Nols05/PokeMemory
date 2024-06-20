@@ -23,7 +23,7 @@ body {
   align-items: center;
   background-image: url(https://www.bhmpics.com/downloads/pixel-pokemon-Wallpapers/3.wp8797760.jpg);
   background-size: contain;
-  cursor: url('public/cursor.png'), auto;
+  cursor: url('src/assets/cursor.png'), auto;
 
 }
 
@@ -33,7 +33,7 @@ button,
 textarea,
 select {
   font: inherit;
-  cursor: url('./cursor.png'), auto;
+  cursor: url('src/assets/cursor.png'), auto;
 
 }
 
